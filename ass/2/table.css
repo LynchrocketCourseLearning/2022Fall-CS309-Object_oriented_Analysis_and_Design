@@ -1,0 +1,191 @@
+@CHARSET "UTF-8";
+
+#wholebody {
+    background-color: #FFFFED;
+    /* background-image: linear-gradient(to right, rgb(255, 145, 0) , yellow); */
+    background-image: url('./bg.png');
+}
+
+#wholetitle {
+    font-size: 20px;
+    font-style: bold;
+    text-shadow: 5px 5px 5px #FF0000;
+}
+
+/* 
+#tabletitle{
+    font-size: 20px;
+    font-style: bold;
+    background-image: linear-gradient(to right, rgb(255, 145, 0) , yellow);
+} */
+
+table {
+    border: 2px solid black;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+}
+
+tr {
+    background-image: linear-gradient(to right, rgb(255, 145, 0), rgb(91, 224, 14));
+}
+
+th {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 15px;
+    opacity: 1;
+    background-color: #F9E3AF;
+    color: #333333;
+    text-align: center;
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgb(234, 194, 64), yellow);
+}
+
+#cover {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#addCourseTable {
+    position: fixed;
+    line-height: 40px;
+    /* width: 600px;
+    height: 400px; */
+    width: 50%;
+    height: 60%;
+    text-align: center;
+    background-color: #e5ac27;
+    font-size: 20px;
+    /* margin: 40px auto 0; */
+    /* margin: 0 auto; */
+    top: 10%;
+    left: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#editCourse {
+    position: fixed;
+    line-height: 40px;
+    /* width: 600px;
+    height: 400px; */
+    width: 50%;
+    height: 60%;
+    text-align: center;
+    background-color: #63cf90;
+    font-size: 20px;
+    /* margin: 40px auto 0; */
+    top: 10%;
+    left: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+span.title {
+    display: block;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -15px;
+    text-align: center;
+    background: #FFFFED;
+}
+
+#addCourseButton {
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #FFFFED;
+    color: black;
+    border: 2px solid #e5ac27;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+#addCourseButton:hover {
+    background-color: #e5ac27;
+    color: white;
+}
+
+#editbutton {
+    width: 60px;
+    height: 25px;
+    background-color: #F9E3AF;
+    color: black;
+    border: 2px solid #e5ac27;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+#editbutton:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#deletebutton {
+    width: 60px;
+    height: 25px;
+    margin-top: 5px;
+    background-color: #F9E3AF;
+    color: black;
+    border: 2px solid #e5ac27;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+#deletebutton:hover {
+    background-color: #e24e7f;
+    color: white;
+}
+
+#submitbutton {
+    background-color: #dbcece;
+    border: none;
+    color: black;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+#submitbutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cancelbutton {
+    background-color: #dbcece;
+    border: none;
+    color: black;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+#cancelbutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
